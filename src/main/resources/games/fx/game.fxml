@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane fx:id="pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="800.0" styleClass="root" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="games.fx.GameController">
+   <children>
+      <Label layoutX="10.0" text="Score:">
+         <font>
+            <Font name="Evil Empire" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="639.0" layoutY="4.0" text="ENEMIES Left:">
+         <font>
+            <Font name="Evil Empire" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblScore" layoutX="83.0" layoutY="-1.0">
+         <font>
+            <Font name="Evil Empire" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblLeft" layoutX="766.0" layoutY="1.0">
+         <font>
+            <Font name="Evil Empire" size="24.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="30.0" fitWidth="30.0" layoutX="180.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@p.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="216.0" layoutY="4.0" text="10">
+         <font>
+            <Font name="Evil Empire" size="16.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="30.0" fitWidth="30.0" layoutX="239.0" layoutY="-3.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@cc.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="272.0" layoutY="5.0" text="15">
+         <font>
+            <Font name="Evil Empire" size="16.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="30.0" fitWidth="63.0" layoutX="283.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@r.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="332.0" layoutY="5.0" text="20">
+         <font>
+            <Font name="Evil Empire" size="16.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>

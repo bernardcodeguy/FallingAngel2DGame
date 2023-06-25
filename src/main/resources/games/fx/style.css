@@ -1,0 +1,15 @@
+.root{
+    -fx-background-image: url("background.png");
+    -fx-background-size: cover;
+}
+
+.button{
+
+    -fx-background-color : rgba(163,146,212,0.5);
+}
+
+
+.button:hover{
+
+    -fx-background-color : rgba(163,146,212,0.8);
+}
